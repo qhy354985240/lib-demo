@@ -1,0 +1,10 @@
+{
+  "name": "lib-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qinhuayong <qinhuayong@meituan.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tapable": "^2.2.1"
+  }
+}

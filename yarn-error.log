@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/qinhuayong/.nvm/versions/node/v12.22.3/bin/node /Users/qinhuayong/.nvm/versions/node/v12.22.3/bin/yarn add tapable.js
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/qinhuayong/.nvm/versions/node/v12.22.3/bin:/usr/local/sbin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.22.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://r.npm.sankuai.com/tapable.js: Not found
+      at Request.params.callback [as _callback] (/Users/qinhuayong/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/Users/qinhuayong/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/qinhuayong/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/qinhuayong/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "lib-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "qinhuayong <qinhuayong@meituan.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
